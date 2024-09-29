@@ -6,7 +6,7 @@ public class FetchingAllDataFromDatabase {
 	public static void main(String[] args) {  // We can use try{} and catch{} block or we can use throws keyword directly in main method.
 		try {
 		Class.forName("com.mysql.jdbc.Driver"); // Load & Register the Driver
-		Connection built = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","Debi@prasad9777");  // Connection Established.
+		Connection built = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","");  // Connection Established.
 		Statement think = built.createStatement();  // Create Statement.
 		ResultSet store = think.executeQuery("select * from studentdata");  // Execute Query.
 		
