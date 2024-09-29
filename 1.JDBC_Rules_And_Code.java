@@ -17,7 +17,7 @@ public class JDBC_Rules_And_Code {
   public static void main(String[] args) throws Exception {
   	String url = "jdbc:mysql://localhost:3306/student";
   	String uname = "root";
-      String pass = "Debi@prasad9777";
+      String pass = "1234";
       String query = "select name from studentdata where id=5";
       
       Class.forName("com.mysql.jdbc.Driver");
